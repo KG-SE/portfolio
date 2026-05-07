@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kashan Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <h2>Kashan Ghori</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#skills">Skills</a></li>
+  </ul>
+
+  <div class="nav-socials">
+
+    <a href="https://github.com/KG-SE" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://linkedin.com/in/kashan-ghori-9b50b43b4" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+
+  </div>
+
+  <!-- Dark Mode Toggle -->
+  <button id="toggle">🌙</button>
+</nav>
+
+<!-- Home -->
+<section id="home" class="home">
+  <h1 data-aos="fade-up">Hi, I'm <span>Kashan</span></h1>
+  <p data-aos="fade-up" data-aos-delay="200">Software Engineering Student | Web Developer</p>
+
+  <div class="hero-socials">
+
+    <a href="https://github.com/KG-SE"
+       target="_blank"
+       class="hero-btn github-btn">
+
+      <i class="fab fa-github"></i>
+      GitHub
+
+    </a>
+
+    <a href="https://linkedin.com/in/kashan-ghori-9b50b43b4"
+       target="_blank"
+       class="hero-btn linkedin-btn">
+
+      <i class="fab fa-linkedin"></i>
+      LinkedIn
+
+    </a>
+
+  </div>
+
+  <!-- ACTION BUTTONS -->
+  <div class="hero-buttons">
+   
+    <a href="#projects" class="btn">View My Work</a>
+    <a href="Kashan-Ghori_Resume.pdf" download class="btn cv-btn">Download My Resume</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" data-aos="fade-right">
+  <h2>About Me</h2>
+  <p>I am a Software Engineering student with basic knowledge of web development.
+     I am passionate about building websites and learning new technologies.</p>
+</section>     
+
+     <section id="skills">
+  <h2 data-aos="fade-up">Skills</h2>
+
+  <div class="skills-container">
+
+    <div class="skill" data-aos="fade-up">
+      <div class="skill-info">
+        <p><i class="fab fa-html5"></i> HTML</p>
+        <span>90%</span>
+      </div>
+      <div class="bar"><span data-width="90%"></span></div>
+    </div>
+
+    <div class="skill" data-aos="fade-up">
+      <div class="skill-info">
+        <p><i class="fab fa-css3-alt"></i> CSS</p>
+        <span>70%</span>
+      </div>
+      <div class="bar"><span data-width="70%"></span></div>
+    </div>
+
+    <div class="skill" data-aos="fade-up">
+      <div class="skill-info">
+        <p><i class="fab fa-js"></i> JavaScript</p>
+        <span>75%</span>
+      </div>
+      <div class="bar"><span data-width="75%"></span></div>
+    </div>
+
+    <div class="skill" data-aos="fade-up">
+      <div class="skill-info">
+          <p><i class="fab fa-python"></i>Python</p>
+          <span>30%</span>
+      </div>
+      <div class="bar"><span data-width="30%"></span></div>
+    </div>
+
+    <div class="skill" data-aos="fade-up">
+      <div class="skill-info">
+        <p><i class="fas fa-file-word"></i> MS Office</p>
+        <span>40%</span>
+      </div>
+      <div class="bar"><span data-width="40%"></span></div>
+    </div>
+    </div>
+
+<!-- Projects -->
+<section id="projects">
+  <h2 data-aos="fade-up">Projects</h2>
+
+  <div class="container">
+
+    <!-- Calculator -->
+    <div class="card" data-aos="zoom-in">
+      <h3>Calculator App</h3>
+      <p>
+        A modern and responsive calculator. This project demonstrates basic arithmetic operations
+        along with interactive UI and ON/OFF functionality (real calculator behavior).
+        <strong>Tech:</strong> HTML, CSS, JavaScript
+      </p>
+      <a href="https://kg-se.github.io/calculator/" class="btn">Live Demo</a>
+      <a href="https://github.com/KG-SE/calculator" class="btn github">GitHub</a>
+    </div>
+
+    <!-- Rock Paper Scissors -->
+    <div class="card" data-aos="zoom-in">
+      <h3>Rock Paper Scissors Game</h3>
+      <p>
+        An interactive Rock Paper Scissors game with real time score tracking, sound effects,
+        computer AI with delay & reset game functionality.
+        where users can play against the computer with dynamic results.
+        <strong>Tech:</strong> HTML, CSS , JavaScript
+      </p>
+      <a href="https://kg-se.github.io/rock-paper-scissors-game/" class="btn">Live Demo</a>
+      <a href="https://github.com/KG-SE/rock-paper-scissors-game" class="btn github">GitHub</a>
+    </div>
+
+    <!-- Tic Tac Toe -->
+    <div class="card" data-aos="zoom-in">
+      <h3>Tic Tac Toe Game</h3>
+      <p>
+        A classic 2-player Tic Tac Toe game with winner detection, two player modes, 
+        dynamic player names, draw handling, reset game functionality
+        and smooth gameplay 
+        <strong>Tech:</strong> HTML, CSS , JavaScript
+      </p>
+      <a href="https://kg-se.github.io/tic-tac-toe_game/" class="btn">Live Demo</a>
+      <a href="https://github.com/KG-SE/tic-tac-toe_game" class="btn github">GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact (Simple Info Only) -->
+<section id="contact" data-aos="fade-up">
+  <h2>Contact</h2>
+
+  <p>
+    <i class="fas fa-envelope"></i>
+    Email: ghorikashan7@gmail.com
+  </p>
+
+  <p>
+    <i class="fas fa-phone"></i>
+    Phone: +92 3113312413
+  </p>
+
+  <p>
+    <i class="fab fa-github"></i>
+    GitHub:
+    <a href="https://github.com/KG-SE" target="_blank">
+      github.com/KG-SE
+    </a>
+  </p>
+
+  <p>
+    <i class="fab fa-linkedin"></i>
+    LinkedIn:
+    <a href="https://linkedin.com/in/kashan-ghori-9b50b43b4" target="_blank">
+      linkedin.com/in/kashan-ghori-9b50b43b4
+    </a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Kashan Portfolio</p>
+</footer>
+
+<!-- Scroll To Top Button -->
+<button id="topBtn">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+<!-- AOS Init -->
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
