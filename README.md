@@ -25,7 +25,7 @@ The portfolio showcases my technical skills, projects, education, courses, and c
 
 ---
 
-[🔗Live Demo](portfolio-tau-umber-17.vercel.app)
+[🔗View Live Portfolio](https://portfolio-tau-umber-17.vercel.app)
 
 ---
 
