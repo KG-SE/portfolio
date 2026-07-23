@@ -1,0 +1,121 @@
+/* =====================================================
+                    SECTION TITLE
+===================================================== */
+
+.section-title {
+
+    margin-bottom: 70px;
+
+}
+
+.section-title.center {
+
+    text-align: center;
+
+}
+
+.section-title.left {
+
+    text-align: left;
+
+}
+
+/* ================= SUBTITLE ================= */
+
+.section-subtitle {
+
+    display: inline-block;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+
+    color: var(--primary);
+
+    margin-bottom: 14px;
+
+}
+
+/* ================= TITLE ================= */
+
+.section-heading {
+
+    font-size: clamp(2rem, 4vw, 3rem);
+
+    font-weight: 700;
+
+    color: var(--text);
+
+    line-height: 1.2;
+
+    margin-bottom: 18px;
+
+}
+
+/* ================= LINE ================= */
+
+.section-line {
+
+    width: 90px;
+
+    height: 4px;
+
+    background: linear-gradient(
+        90deg,
+        #3B82F6,
+        #38BDF8
+    );
+
+    border-radius: 50px;
+
+}
+
+/* Line Position */
+
+.section-title.center .section-line {
+
+    margin: 0 auto;
+
+}
+
+.section-title.left .section-line {
+
+    margin: 0;
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .section-title {
+
+        margin-bottom: 50px;
+
+    }
+
+    .section-subtitle {
+
+        font-size: 13px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .section-heading {
+
+        font-size: 2rem;
+
+    }
+
+    .section-line {
+
+        width: 70px;
+
+    }
+
+}

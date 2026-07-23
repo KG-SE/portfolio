@@ -1,0 +1,181 @@
+/* =====================================================
+                    GOOGLE FONT
+===================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* =====================================================
+                    RESET
+===================================================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    background:#0F172A;
+
+    color:#F8FAFC;
+
+    overflow-x:hidden;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+button{
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    font-family:inherit;
+
+}
+
+section{
+
+    position:relative;
+
+}
+
+/* =====================================================
+                    VARIABLES
+===================================================== */
+
+:root{
+
+    --primary:#3B82F6;
+
+    --secondary:#38BDF8;
+
+    --background:#0F172A;
+
+    --surface:#111827;
+
+    --text:#F8FAFC;
+
+    --paragraph:#CBD5E1;
+
+    --border:rgba(255,255,255,.08);
+
+}
+
+/* =====================================================
+                    CONTAINER
+===================================================== */
+
+.container{
+
+    width:min(1200px,90%);
+
+    margin:auto;
+
+}
+
+/* =====================================================
+                    COMMON SECTION
+===================================================== */
+
+.section{
+
+    padding:100px 0;
+
+}
+
+/* =====================================================
+                    SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#0F172A;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+    border-radius:20px;
+
+}
+
+/* =====================================================
+                    TEXT SELECTION
+===================================================== */
+
+::selection{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+/* =====================================================
+                    RESPONSIVE
+===================================================== */
+
+@media(max-width:992px){
+
+    .section{
+
+        padding:80px 0;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .section{
+
+        padding:70px 0;
+
+    }
+
+}
