@@ -10,7 +10,7 @@ const skills = {
 
     "CSS3",
 
-    "Bootstrap",
+    "Bootstrap 5",
 
     "Responsive Web Design",
 
@@ -44,7 +44,7 @@ const skills = {
 
     "npm",
 
-    "GitHub Pages",
+    "Deployment (Basic)",
 
     "Microsoft Word",
 
