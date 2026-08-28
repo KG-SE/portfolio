@@ -367,7 +367,7 @@
 
     height:100%;
 
-    object-fit:cover;
+    object-fit: fill;
 
     border-radius:22px;
 
@@ -399,35 +399,6 @@
     font-size:14px;
 
     white-space:nowrap;
-
-}
-
-
-/* =====================================================
-                FLOATING CARDS
-===================================================== */
-
-.floating-card{
-
-    position:absolute;
-
-    padding:12px 18px;
-
-    border-radius:18px;
-
-    background:rgba(255,255,255,.06);
-
-    backdrop-filter:blur(12px);
-
-    border:1px solid rgba(255,255,255,.08);
-
-    font-size:15px;
-
-    font-weight:600;
-
-    z-index:3;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
 
 }
 
@@ -527,17 +498,7 @@
                     ANIMATIONS
 ===================================================== */
 
-.hero-glow-one{
 
-    animation: glowOne 8s ease-in-out infinite alternate;
-
-}
-
-.hero-glow-two{
-
-    animation: glowTwo 10s ease-in-out infinite alternate;
-
-}
 
 .hero-image-card{
 
@@ -545,23 +506,7 @@
 
 }
 
-.react-card{
 
-    animation: floatCardOne 5s ease-in-out infinite;
-
-}
-
-.js-card{
-
-    animation: floatCardTwo 6s ease-in-out infinite;
-
-}
-
-.bs-card{
-
-    animation: floatCardThree 7s ease-in-out infinite;
-
-}
 
 
 /* =====================================================
@@ -582,19 +527,7 @@
 
 }
 
-.floating-card{
 
-    transition: .35s ease;
-
-}
-
-.floating-card:hover{
-
-    transform: translateY(-8px) scale(1.04);
-
-    border-color: var(--primary);
-
-}
 
 .hero-left h1 span{
 
@@ -660,71 +593,6 @@
 
 }
 
-@keyframes floatCardOne{
-
-    0%{
-
-        transform:translateY(0);
-
-    }
-
-    50%{
-
-        transform:translateY(-12px);
-
-    }
-
-    100%{
-
-        transform:translateY(0);
-
-    }
-
-}
-
-@keyframes floatCardTwo{
-
-    0%{
-
-        transform:translateY(0);
-
-    }
-
-    50%{
-
-        transform:translateY(12px);
-
-    }
-
-    100%{
-
-        transform:translateY(0);
-
-    }
-
-}
-
-@keyframes floatCardThree{
-
-    0%{
-
-        transform:translateY(0);
-
-    }
-
-    50%{
-
-        transform:translateY(-10px);
-
-    }
-
-    100%{
-
-        transform:translateY(0);
-
-    }
-
-}
 
 @keyframes glowOne{
 
@@ -824,6 +692,7 @@
 
     }
 
+
     .stats-wrapper{
 
         position:static;
@@ -919,6 +788,12 @@
 
     }
 
+    .hero-image-card image{
+    
+        object-fit: cover;
+    
+    }
+
     .floating-card{
 
         display:none;
@@ -943,15 +818,7 @@
 
 @media (max-width:480px){
 
-    .hero-image-card{
-
-    width:220px;
-
-    height:220px;
-
-}
-
-  .hero-image-card::after{
+    .hero-image-card::after{
 
     content:"🟢 Open to Work";
 
@@ -990,6 +857,10 @@
     height:230px;
 
 }
+
+    .hero-image-card img{
+        object-fit: cover;
+    }
 
 
 
