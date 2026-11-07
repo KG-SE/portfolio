@@ -15,7 +15,7 @@ const courses = [
   {
     id: 2,
 
-    title: "Diploma of Information Technology",
+    title: "Diploma in Information Technology",
 
     institute: "Comstect Academy",
 
