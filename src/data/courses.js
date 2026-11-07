@@ -1,29 +1,28 @@
 const courses = [
-
   {
     id: 1,
-    
-    title: "Stenography",
 
-    institute: "Sindh Technical & Vocational Training Authority",
+    title: "English Shorthand & Typewriting",
+
+    institute:
+      "Sindh Technical Education & Vocational Training Authority (STEVTA)",
 
     duration: "2022 – 2023",
 
-    location: "Hyderabad, Pakistan"
+    location: "Hyderabad, Pakistan",
   },
 
   {
     id: 2,
-    
+
     title: "Diploma of Information Technology",
 
     institute: "Comstect Academy",
 
-    duration: "2021 – 2022",
+    duration: "2022 – 2023",
 
-    location: "Hyderabad, Pakistan"
-  }
-
+    location: "Hyderabad, Pakistan",
+  },
 ];
 
 export default courses;

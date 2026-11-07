@@ -9,10 +9,10 @@ const personal = {
     "Frontend Developer",
     "Software Engineer",
     "React.js Developer",
-    "JavaScript Enthusiast"
+    "JavaScript Enthusiast",
   ],
 
-  bio: "Passionate Frontend Developer and Software Engineering graduate with a strong interest in building responsive, modern, and user-friendly web applications. I enjoy transforming ideas into clean, interactive interfaces using React.js, JavaScript (ES6+), Bootstrap, HTML5, and CSS3 while continuously improving my skills through real-world projects.",
+  bio: "Passionate Frontend Developer and Software Engineering graduate with a strong interest in building responsive, modern, and user-friendly web applications. I enjoy transforming ideas into clean, interactive interfaces using React.js, JavaScript (ES6+), Bootstrap, HTML5, and CSS3. Currently expanding my programming skills by learning Python while continuously improving my technical abilities through hands-on projects and practical experience.",
 
   city: "Hyderabad, Pakistan",
 
@@ -31,41 +31,41 @@ const personal = {
   stats: [
     {
       value: "5+",
-      label: "Projects"
+      label: "Projects",
     },
 
     {
       value: "2026",
-      label: "Graduate"
+      label: "Graduate",
     },
 
     {
       value: "React",
-      label: "Frontend"
-    }
+      label: "Frontend",
+    },
   ],
 
   floatingSkills: [
     {
       icon: "⚛",
-      title: "React.js"
+      title: "React.js",
     },
 
     {
       icon: "🟨",
-      title: "JavaScript"
+      title: "JavaScript",
     },
 
     {
       icon: "💜",
-      title: "Bootstrap"
+      title: "Bootstrap",
     },
 
     {
       icon: "🌐",
-      title: "Responsive Design"
-    }
-  ]
+      title: "Responsive Design",
+    },
+  ],
 };
 
 export default personal;

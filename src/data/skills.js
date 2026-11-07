@@ -1,7 +1,5 @@
 const skills = {
-
   technical: [
-
     "React.js",
 
     "JavaScript (ES6+)",
@@ -9,6 +7,8 @@ const skills = {
     "HTML5",
 
     "CSS3",
+
+    "Python (Learner)",
 
     "Bootstrap 5",
 
@@ -21,19 +21,17 @@ const skills = {
     "SDLC (Basic Knowledge)",
 
     "Problem Solving",
-    
+
     "Debugging",
 
     "Code Organization",
-    
+
     "Testing (Basic)",
 
-    "Attention to Detail"
-
+    "Attention to Detail",
   ],
 
   tools: [
-
     "Visual Studio Code",
 
     "Git",
@@ -48,22 +46,10 @@ const skills = {
 
     "Microsoft Word",
 
-    "Microsoft PowerPoint"
-
+    "Microsoft PowerPoint",
   ],
 
-  softSkills: [
-
-    "Teamwork",
-
-    "Communication",
-
-    "Time Management",
-
-    "Quick Learner"
-
-  ]
-
+  softSkills: ["Teamwork", "Communication", "Time Management", "Quick Learner"],
 };
 
 export default skills;
